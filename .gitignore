@@ -1,0 +1,7 @@
+# 输入图片目录
+imgs/
+
+# 九宫格输出
+result.jpg
+result.png
+result.webp
