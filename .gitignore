@@ -1,9 +1,15 @@
 # 输入图片目录
 imgs/
 
-# 九宫格输出
-result.jpg
-result.png
-result.webp
+# 图片文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.heic
 
 .idea
