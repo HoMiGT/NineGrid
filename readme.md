@@ -34,9 +34,14 @@ options:
   --quality 1-100       JPEG质量，默认95
 ```
 
+本地生成命令测试
+```
 python nine_grid.py 1.jpg 2.jpg 3.jpg 4.jpg 5.jpg 6.jpg 7.jpg 8.jpg 9.jpg  -s imgs -o result.jpg --crop 2:0,1000 --crop 3:1100,0 --crop 4:0,1200 --crop 5:510,25 --crop 6:2500,1500 --crop 7:0,1000 --crop 8:1000,1200 --crop 9:0,1000
+```
 
+```
 python nine_grid.py 2.jpg 3.jpg 4.jpg 1.jpg 5.jpg 7.jpg 6.jpg 8.jpg 9.jpg -s imgs -o result1.jpg --crop 1:0,1000 --crop 2:1100,0 --crop 3:0,1200 --crop 5:510,25 --crop 6:0,1000 --crop 7:2500,1500 --crop 8:1000,1200 --crop 9:0,1000
+```
 
 
 
